@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  gap: 0em;
+}
+
+.search-bar input {
+  padding: 0.2em;
+}
+.Main {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.Main img {
+  width: 100%;
+  height: auto;
+}
+
+.Main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5em;
+  border-radius: 10px;
+}
+
+.button,
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.about {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(245, 197, 115);
+  padding: 1em;
+}
+
+.about.image img {
+  width: 50%;
+  margin-bottom: auto;
+}
+.Services {
+  background: #ffffff;
+  padding: 2em 1em;
+  text-align: center;
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #e9e374;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+  padding: 2em 1em;
+}
+
+.vision img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.vision-text {
+  max-width: 800px;
+  text-align: center;
+}
+.team {
+  padding: 2em 1em;
+  background: #fff;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.member-info {
+  max-width: 600px;
+}
+.contact {
+  padding: 2em 1em;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75em;
+  width: 100%;
+}
+
+.hours {
+  margin-top: 2em;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 0.75em;
+  text-align: left;
+}
+.Location {
+  margin-top: 2em;
+  padding: 1em;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
